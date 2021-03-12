@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="itemsCadastro">
+        <h2>CADASTRO</h2>
+        <form action="" method="post"  autocomplete="on">
+            <div>
+                <label for="nomeCompleto">Nome Completo:</label>
+                <input type="text" id="nomeCompleto" name="nomeCompleto" size="50">
+                <br><br>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" size="61">
+                <br><br>
+    
+                <label for="cpf">CPF:</label>
+                <input type="text" id="cpf" name="cpf" size="15">
+                <label for="estCivil">Est.Civil:</label>
+                <select name="esCivil" id="estCivil">
+                    <option value="solteiro" selected>Solteiro</option>
+                    <option value="casado">Casado</option>
+                    <option value="divorciado">Divorciado</option>
+                    <option value="viuvo">viuvo(a)</option>
+                </select>
+                <br><br>
+                
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="endereco" size="40">
+                <label for="endereco">Nº:</label>
+                <input type="text" id="endereco" name="endereco" maxlength="5" size="7">
+                <br><br>
+        
+                <label for="bairro">Bairro:</label>
+                <input type="text" id="bairro" name="bairro">
+                
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade">
+                <br><br>
+        
+                <label for="cep">Cep:</label>
+                <input type="text" id="cep" name="cep" size="22">
+        
+                <label for="uf">UF:</label>
+                <select name="uf" id="uf">
+        
+                    <option value="ba" selected>BA</option>
+                    <option value="mg">MG</option>
+                    <option value="sp">SP</option>
+        
+                </select>
+                <br><br>
+            </div>
+
+            <div>
+
+                <label for="tel">Telefone:</label>
+                <input type="tel" id="tel" name="tel" size="18">
+                
+                <label for="data">Data Nascimento:</label>
+                <input type="date" id="data" name="data">
+                <br><br>
+                
+                <label for="cel">Celular:</label>
+                <input type="tel" id="cel" name="cel" size="19">
+                
+                <label for="sexo">Sexo</label> 
+                <input type="radio" name="sexo" id="masc">
+                <label for="masc">M</label>
+                
+                <input type="radio" name="sexo" id="fem">
+                <label for="fem">F</label>
+                <br><br>
+                
+                <label for="login">Login:</label>
+                <input type="text" id="login" name="login" size="20">
+    
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" size="22">
+                <br><br>
+                
+                <input type="checkbox" id="regras" name="regras">
+                <label for="regras">Li as regras de cadastro e autorizo a criação de conta.</label>
+                <br><br>
+                
+                <div>
+                    <button>CADASTRAR</button>
+                </div>
+            </div>
+        </form>  
+    </div>
+    </body>
+</html>
